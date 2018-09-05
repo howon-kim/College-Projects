@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09BE25D271C4D82D9E0C87D7 /* libPods-DeAnzaMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C199F80A953F5728E0D26120 /* libPods-DeAnzaMap.a */; };
+		29AEFE062043E323006143E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AEFE052043E323006143E8 /* AppDelegate.swift */; };
+		29AEFE082043E323006143E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AEFE072043E323006143E8 /* ViewController.swift */; };
+		29AEFE0B2043E323006143E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29AEFE092043E323006143E8 /* Main.storyboard */; };
+		29AEFE0D2043E324006143E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AEFE0C2043E324006143E8 /* Assets.xcassets */; };
+		29AEFE102043E324006143E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29AEFE0E2043E324006143E8 /* LaunchScreen.storyboard */; };
+		29AEFE182043EA7E006143E8 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 29AEFE172043EA7E006143E8 /* style.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0038198632C4EEF8E53165DF /* Pods-DeAnzaMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeAnzaMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeAnzaMap/Pods-DeAnzaMap.release.xcconfig"; sourceTree = "<group>"; };
+		29AEFE022043E323006143E8 /* DeAnzaMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeAnzaMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AEFE052043E323006143E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29AEFE072043E323006143E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29AEFE0A2043E323006143E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29AEFE0C2043E324006143E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29AEFE0F2043E324006143E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29AEFE112043E324006143E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29AEFE172043EA7E006143E8 /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		97596B3515B9961188A4729B /* Pods-DeAnzaMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeAnzaMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeAnzaMap/Pods-DeAnzaMap.debug.xcconfig"; sourceTree = "<group>"; };
+		C199F80A953F5728E0D26120 /* libPods-DeAnzaMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeAnzaMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29AEFDFF2043E323006143E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BE25D271C4D82D9E0C87D7 /* libPods-DeAnzaMap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B56A21DEE9A883783A9BDF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C199F80A953F5728E0D26120 /* libPods-DeAnzaMap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29AEFDF92043E323006143E8 = {
+			isa = PBXGroup;
+			children = (
+				29AEFE042043E323006143E8 /* DeAnzaMap */,
+				29AEFE032043E323006143E8 /* Products */,
+				E61BA443CEE8000E9C788C8B /* Pods */,
+				1B56A21DEE9A883783A9BDF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29AEFE032043E323006143E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29AEFE022043E323006143E8 /* DeAnzaMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29AEFE042043E323006143E8 /* DeAnzaMap */ = {
+			isa = PBXGroup;
+			children = (
+				29AEFE052043E323006143E8 /* AppDelegate.swift */,
+				29AEFE072043E323006143E8 /* ViewController.swift */,
+				29AEFE092043E323006143E8 /* Main.storyboard */,
+				29AEFE0C2043E324006143E8 /* Assets.xcassets */,
+				29AEFE0E2043E324006143E8 /* LaunchScreen.storyboard */,
+				29AEFE112043E324006143E8 /* Info.plist */,
+				29AEFE172043EA7E006143E8 /* style.json */,
+			);
+			path = DeAnzaMap;
+			sourceTree = "<group>";
+		};
+		E61BA443CEE8000E9C788C8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97596B3515B9961188A4729B /* Pods-DeAnzaMap.debug.xcconfig */,
+				0038198632C4EEF8E53165DF /* Pods-DeAnzaMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29AEFE012043E323006143E8 /* DeAnzaMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AEFE142043E324006143E8 /* Build configuration list for PBXNativeTarget "DeAnzaMap" */;
+			buildPhases = (
+				37B2D3C1B4E7F80D24603EE7 /* [CP] Check Pods Manifest.lock */,
+				29AEFDFE2043E323006143E8 /* Sources */,
+				29AEFDFF2043E323006143E8 /* Frameworks */,
+				29AEFE002043E323006143E8 /* Resources */,
+				D48CAD47C259BEC8E4EAFF74 /* [CP] Embed Pods Frameworks */,
+				033E1E3AEC0A763BFE554322 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeAnzaMap;
+			productName = DeAnzaMap;
+			productReference = 29AEFE022043E323006143E8 /* DeAnzaMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29AEFDFA2043E323006143E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Softgine;
+				TargetAttributes = {
+					29AEFE012043E323006143E8 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 29AEFDFD2043E323006143E8 /* Build configuration list for PBXProject "DeAnzaMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29AEFDF92043E323006143E8;
+			productRefGroup = 29AEFE032043E323006143E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29AEFE012043E323006143E8 /* DeAnzaMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29AEFE002043E323006143E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AEFE102043E324006143E8 /* LaunchScreen.storyboard in Resources */,
+				29AEFE0D2043E324006143E8 /* Assets.xcassets in Resources */,
+				29AEFE0B2043E323006143E8 /* Main.storyboard in Resources */,
+				29AEFE182043EA7E006143E8 /* style.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		033E1E3AEC0A763BFE554322 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DeAnzaMap/Pods-DeAnzaMap-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeAnzaMap/Pods-DeAnzaMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37B2D3C1B4E7F80D24603EE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeAnzaMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D48CAD47C259BEC8E4EAFF74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeAnzaMap/Pods-DeAnzaMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29AEFDFE2043E323006143E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AEFE082043E323006143E8 /* ViewController.swift in Sources */,
+				29AEFE062043E323006143E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29AEFE092043E323006143E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29AEFE0A2043E323006143E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29AEFE0E2043E324006143E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29AEFE0F2043E324006143E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29AEFE122043E324006143E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29AEFE132043E324006143E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29AEFE152043E324006143E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97596B3515B9961188A4729B /* Pods-DeAnzaMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48BUATF4VW;
+				INFOPLIST_FILE = DeAnzaMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.softgine.DeAnzaMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29AEFE162043E324006143E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0038198632C4EEF8E53165DF /* Pods-DeAnzaMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48BUATF4VW;
+				INFOPLIST_FILE = DeAnzaMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.softgine.DeAnzaMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29AEFDFD2043E323006143E8 /* Build configuration list for PBXProject "DeAnzaMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AEFE122043E324006143E8 /* Debug */,
+				29AEFE132043E324006143E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29AEFE142043E324006143E8 /* Build configuration list for PBXNativeTarget "DeAnzaMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AEFE152043E324006143E8 /* Debug */,
+				29AEFE162043E324006143E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29AEFDFA2043E323006143E8 /* Project object */;
+}
