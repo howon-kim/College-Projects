@@ -1,0 +1,4 @@
+USER NAME           COMPUTER SCORE      USER SCORE          RESULT              
+                    2                   4                   WIN                 
+                    7                   5                   LOSE                
+EDE                 14                  16                  WIN                 

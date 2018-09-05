@@ -1,0 +1,15 @@
+Inventory Part2
+
+Modify the Inventory Program so the application can handle multiple items. 
+Use an array to store the items. 
+The output should display the information one product at a time, including the item number, 
+the name of the product, the number of units in stock, the price of each unit, 
+and the value of the inventory of that product. 
+In addition, the output should display the value of the entire inventory.
+Create a method to calculate the value of the entire inventory.
+Create another method to sort the array items by the name of the product.
+For this part 2, the new 2 methods are created in the inventory class. 
+They must have a parameter which is an array of the inventory class. 
+In the inventoryTest class, create an array of inventory class. 
+Populate the array. Display the non sorted array. 
+Sort the array by calling the method created in the inventory class. Display the sorted array.

@@ -1,0 +1,8 @@
+Payroll Part1
+
+Create a non-GUI-based Java application that calculates weekly pay for an employee. 
+The application should display text that requests the user input the name of the employee, 
+the hourly rate, and the number of hours worked for that week. 
+The application should then print out the name of the employee and the weekly pay amount. 
+In the printout, display the dollar symbol ($) to the left of the weekly pay amount and 
+format the weekly pay amount to display currency.

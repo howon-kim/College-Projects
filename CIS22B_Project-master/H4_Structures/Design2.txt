@@ -1,0 +1,27 @@
+struct definition
+Below search Manager
+- Read Binary search Function
+ - Read Display Function
+
+* Array : Dynamically Allocated array
+
+Nested Structure
+- Lowest , Highest can be nested structure
+
+
+* Best style for pointer for structure
+
+void printCollege (College *school)
+{
+cout << (*school).rank; // OK
+cut << school -> rank; // BEST
+}
+
+
+* Structure use reference because if use pass by value use a lot of memory
+ex. void ShowItem(const InventoryItem &p)
+-> Pass by  reference but prevent to change the data
+
+* Returning a Structure from a Function 
+-> Way to return more than 2 values
+

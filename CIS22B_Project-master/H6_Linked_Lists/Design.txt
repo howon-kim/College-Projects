@@ -1,0 +1,8 @@
+Homework #6
+
+LINEAR List -> Arrays or Linked List
+	              Use the Linked List
+
+We don’t need to use sorting
+Insert value to Linked List (Insert basic operation)
+=> better than array (don’t need to shift)

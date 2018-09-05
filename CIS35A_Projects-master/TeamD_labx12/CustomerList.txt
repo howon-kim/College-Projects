@@ -1,0 +1,4 @@
+123,John,Doe,12.5
+345,Jane,Doe,8.45
+567,John,Smith,23.4
+890,Paul,Smith,5.35

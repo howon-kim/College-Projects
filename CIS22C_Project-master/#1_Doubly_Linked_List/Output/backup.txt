@@ -1,0 +1,16 @@
+John Backus 1954
+Peter Naur 1960
+C.A.R. Hoare 1960
+DDDDDDDDDD
+EEEEEEEEE
+FFFFFF
+GGGGGGGGGGGGGGG 
+Kristen Nygaard 1962
+Dennis Ritchie 1967
+Ken Thompson 1967
+Edsger Dijkstra 1968
+Donald Knuth 1968
+Niklaus Wirth 1970
+Sophie Wilson 1981
+Tim Berners-Lee 1989
+Robert Cailliau 1989

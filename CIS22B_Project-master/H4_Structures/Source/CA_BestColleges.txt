@@ -1,0 +1,76 @@
+15
+3
+Santa Barbara City College
+1909
+http://www.sbcc.edu
+53.8 83.4 11882 18524 30687
+5
+Pasadena City College
+1924
+http://www.pasadena.edu
+50.2 92.1 12708 17666 22000
+14
+West Hills College - Coalinga
+1932
+http://www.westhillscollege.com/coalinga
+40.5 83.6 13349 21935 4000
+7
+Napa Valley College
+1942
+http://www.napavalley.edu
+48.0 88.7 14120 18920 8996
+2
+Orange Coast College
+1947
+http://www.orangecoastcollege.edu
+54.2 91.2 20244 26346 25000
+15
+Palo Verde College
+1947
+http://www.paloverde.edu
+31.2 82.7 14266 18266 3898
+4
+Diablo Valley College
+1949
+http://www.dvc.edu
+50.2 90.5 14839 20579 24781
+6
+Foothill College
+1957
+http://www.foothill.edu
+68.8 87.5 12300 19302 18362
+12
+College of the Siskiyous
+1957
+http://www.siskiyous.edu
+59.8 82.0 15306 21936 2473
+10
+Cuesta College
+1963
+http://www.cuesta.edu
+50.7 86.2 12052 19135 9571
+8
+Ohlone College
+1965
+http://www.ohlone.edu
+52.1 91.1 10898 15878 18000
+1
+De Anza College
+1967
+https://www.deanza.edu
+72.7 90.7 12300 19302 24781
+11
+Feather River Community College District
+1968
+http://www.frc.edu
+53.6 83.3 9012 14362 1635
+13
+Lake Tahoe Community College
+1975
+http://www.ltcc.edu
+48.0 82.8 14199 19620 3000
+9
+Irvine Valley College
+1985
+http://www.ivc.edu
+51.1 90.3 14415 20577 14384

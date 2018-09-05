@@ -1,0 +1,7 @@
+Inventory Part5
+
+Modify the Inventory Program by adding a button to the GUI that allows the user to move to the 
+first item, the previous item, the next item, and the last item in the inventory. 
+If the first item is displayed and the user clicks on the Previous button, the last item should display. 
+If the last item is displayed and the user clicks on the Next button, the first item should display.
+Add a company logo to the GUI using Java graphics classes.

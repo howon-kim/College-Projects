@@ -1,0 +1,7 @@
+Payroll Part2
+
+Modify the Payroll Program application so it continues to request employee information 
+until the user enters stop as the employee name. 
+In addition, program the application to check that the hourly rate and number of hours worked are positive numbers. 
+If either the hourly rate or the number of hours worked is not a positive value, 
+the application should prompt the user to enter a positive amount.

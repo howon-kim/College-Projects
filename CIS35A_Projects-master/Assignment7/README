@@ -1,0 +1,6 @@
+Inventory Part4
+
+Modify the Inventory Program to use a GUI. 
+The GUI should display the information one product at a time, including the item number, the name of the product, the number of units in stock, the price of each unit, and the value of the inventory of that product. 
+In addition, the GUI should display the value of the entire inventory, the additional attribute, and the restocking fee.
+You don't touch the Inventory class and the subclass that you created for part 3. You only modify the InventoryTest to add the GUI.

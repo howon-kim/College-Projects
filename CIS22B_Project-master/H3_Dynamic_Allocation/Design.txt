@@ -1,0 +1,20 @@
+* Functions
+- Reading
+- Sorting
+- Display line
+- Average 
+- Largest, Lowest (in the same loop)
+- Standard deviation for Average, Standard deviation function
+- Display Avg, Largest, Lowest, Standard deviation
+: TOTAL 6~8 Function
+
+* In the function don’t put out (display)
+* Dynamic Allocation 
+ex.
+int numScores
+int *list
+
+function call : readScores(numScores, list)
+function definition : readScores(int &numScores, list)
+
+** Writing everything with indices

@@ -1,0 +1,18 @@
+1) Array
+1D Array // Strings(name)
+2D Array // int(friends relationship)
+1D Array // int (count of friends)
+
+2) Function
+readFriendsData // Read data from text file
+displayTable // Display overall friends relationship table
+countFriends // Count each person’s number of friends
+displayList // Display each person’s Number of friends and name of friends 
+displayGroup // Display each person’s friends name (No duplicated friends name)
+
+3) Main Function
+* Global Variable
+const int SIZE // Maximum students
+
+* Local Variable
+int number // Number of current students (Actual number)

@@ -1,0 +1,13 @@
+Payroll Part3
+
+Modify the Payroll Program so that it uses a class to store and retrieve the employee's name, the hourly rate, and the number of hours worked. 
+Use a constructor to initialize the employee information, and a method within that class to calculate the weekly pay. 
+Once stop is entered as the employee name, the application should terminate. 
+Make sure the program maintains all the functionality required in previous assignments and your source code is readable and well documented. 
+Use feedback you have received from the instructor to make any needed modifications.
+You need to have 2 classes: employee and payroll. 
+The employee class contains the employee info (name, hourly rate, hours worked), and the getName, setName, getHourlyRate, setHourlyRate, 
+getHoursWorked, setHoursWorked, and calculatePay methods. This is a class by itself. 
+Then you create the payroll class to use the employee class by initializing it. 
+The employee class is saved in the employee.java. The payroll class is saved in the payroll.java. You must compile the employee.java first. 
+Make sure that there's no error. Then compile the payroll.java.

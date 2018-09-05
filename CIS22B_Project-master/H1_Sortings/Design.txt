@@ -1,0 +1,54 @@
+Design the Program
+
+1. Arrays (names, sizes) 
+- Two parallels array : int num_id[SIZE], int num_lucky[SIZE],
+- int eList[SIZE], int oList[SIZE], int nList[[SIZE]
+
+
+2. Functions (names, declaration)
+1) Read data from file 
+void inputFile(int id[], int lucky[], int SIZE, int &num);
+
+2) Sorting to descending order
+void descendingSort(int idnum[], int luckynum[], int num);
+
+3) Write to file
+void writeSortedArraysToFile(const int sortid[], const int sortlucky[], int num);
+
+4) Make even, odd, negative arrays
+void sortLuckyNumbers(const int luckynumbers[], int sort_eList[], int sort_oList[], int sort_nList[], int num);
+
+5) Write even, odd, negative to file
+void writeThreeArraysToFile(const int write_eList[], const int write_oList[], const int write_nList[],int num);
+
+
+1 input : numbers.txt
+2 Output files : sorted.txt, lucky.txt
+1 Source file : main.cpp
+
+
+3. Main()
+* Local variables
+- const int SIZE = 50 => Maximum size
+- int num => Actual array size
+
+* Function calls
+    // Read Student ID and Lucky number
+    inputFile(num_id, num_lucky, SIZE, num);
+    
+    // Insertion sort : Sort the parallel arrays in descending order
+    descendingSort(num_id, num_lucky, num);
+    
+    // Write the sorted arrays to another file named sorted.txt
+    writeSortedArraysToFile(num_id, num_lucky, num);
+    
+    // Place the even, odd, negative number to separate array
+    sortLuckyNumbers(num_lucky, eList, oList, nList, num);
+    
+    // Write the three arrays to a file named lucky.txt
+    writeThreeArraysToFile(eList, oList, nList,num);
+
+
+Advise.
+Read data -> Display data that read correctly
+Then focus on sorting

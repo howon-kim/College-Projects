@@ -1,0 +1,8 @@
+Final Project
+
+    The user enters test scores one at a time and then clicks the Enter Score button.
+    For each entered score, the application adds one to the number of scores, calculates the average score,
+    and determines what the best score is so far. 
+    Then, it displays the number of scores, average score, and best score in the three disabled text fields.
+    The user can click the Clear button to reset everything to zero.
+    When the user closes the frame or clicks the Close button, the application exits.

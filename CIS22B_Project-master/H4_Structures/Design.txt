@@ -1,0 +1,21 @@
+1. Welcome function : Program description
+2. readCollegeInfo : Read College information
+3. displayDataManager 
+	-> printList Function (In a loop : for another range) => while loop
+		-> printCollege Function (In a loop) => for loop
+4. searchManager
+	-> binarySearch Function => while loop
+	-> (If found) Call the printCollege Function
+
+5. Farewell : Nice to use my program (program message)
+
+* Make Hierarchy chart
+
+** Tricky part!!
+
+printList(list, size) // void print(int list[ ], int size);
+ex) printList(list,4);
+      printList( list+2, 4); = > Pointer Arithmetic
+Nothing change inside function, only how to call it.
+Use the pointer arithmetic
+
